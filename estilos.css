@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f0;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #006400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 8px 0 0 0;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #228B22;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: #006400;
+    border-radius: 4px;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dddddd;
+}
+
+h2 {
+    color: #006400;
+    border-bottom: 2px solid #228B22;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #2E8B57;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+.destacado {
+    background-color: #e8f5e9;
+    border: 1px solid #a5d6a7;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #228B22;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f7f0;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+button,
+input[type="submit"] {
+    background-color: #006400;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #228B22;
+}
+
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.imagen-placeholder {
+    background-color: #d4edda;
+    border: 2px dashed #228B22;
+    padding: 40px;
+    text-align: center;
+    color: #006400;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.lema {
+    font-style: italic;
+    font-size: 18px;
+    color: #2E8B57;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.lista-especial {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #228B22;
+}

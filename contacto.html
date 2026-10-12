@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto y Asistencia - Portal Turístico de Honduras</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portal Oficial de Turismo y Ecoturismo de Honduras</h1>
+        <p>En conmemoración del Feriado Morazánico</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="destinos.html">Destinos y Rutas</a>
+        <a href="cultura.html">Cultura y Gastronomía</a>
+        <a href="reservaciones.html">Reservaciones</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="contenedor">
+
+        <h2>Contacto y Asistencia al Turista</h2>
+        <p>
+            Estamos para ayudarte. Aquí encontrarás las oficinas de información turística,
+            teléfonos de emergencia, canales digitales y un formulario para consultas generales.
+        </p>
+
+        <h2>Oficinas de Información Turística</h2>
+
+        <div class="destacado">
+            <h3>Instituto Hondureño de Turismo (IHT)</h3>
+            <p>
+                <strong>Ubicación:</strong> Centro Cívico Gubernamental, Torre 2, 7mo y 8vo piso.
+            </p>
+            <div class="imagen-placeholder">
+            <img src="imagenes/contacto/iht.jpg" alt="Oficina Tegucigalpa" width="400">
+            </div>
+        </div>
+
+        <div class="destacado">
+            <h3>Cámara Nacional de Turismo de Honduras (CANATURH)</h3>
+            <p>
+                <strong>Ubicación:</strong> Col. Lomas del Guijarro Sur, Calle Paris, Ave. Niza, #1223, TGU, HN.
+            </p>
+            <div class="imagen-placeholder">
+            <img src="imagenes/contacto/canaturh.jpg" alt="Oficina Tegucigalpa" width="400">
+            </div>
+        </div>
+
+        <h2>Teléfonos de emergencia turística y asistencia vial</h2>
+        <ul>
+            <li><strong>Emergencias generales (Policía / Bomberos / Ambulancia):</strong> 911</li>
+            <li><strong>Instituto Hondureño de Turismo (IHT):</strong> 2242-7920</li>
+            <li><strong>Cámara Nacional de Turismo de Honduras (CANATURH):</strong> 2232-1927 / 9762-0237</li>
+            <li><strong>Asistencia vial (CA-5):</strong> *3333</li>
+            <li><strong>Cruz Roja Hondureña:</strong> 2237-1800 / 195</li>
+        </ul>
+        <p>
+            Nota: Los números de ejemplo pueden actualizarse según la información oficial vigente.
+            Te recomendamos confirmarlos antes de tu viaje.
+        </p>
+
+        <h2>Correo electrónico y canales digitales</h2>
+        <ul>
+            <li><strong>Correo oficial:</strong> tourisminfo@iht.hn</li>
+            <li><strong>Correo de reservas:</strong> reservas@turismohonduras.gob.hn</li>
+            <li><strong>Sitio web institucional:</strong> www.iht.hn</li>
+            <li><strong>Redes sociales:</strong>
+                <ul>
+                    <li>Facebook: /IHToficial</li>
+                    <li>Instagram: @ihtoficial</li>
+                    <li>X (Twitter): @IHToficial</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Formulario de consultas generales</h2>
+        <p>
+            ¿Tienes una pregunta, comentario o necesitas asistencia ciudadana?
+            Completa este formulario y te responderemos lo antes posible.
+        </p>
+
+        <form action="#" method="post">
+
+            <label for="nombre-consulta">Nombre completo *</label>
+            <input type="text" id="nombre-consulta" name="nombre-consulta" required
+                   placeholder="Tu nombre completo" minlength="3" maxlength="80">
+
+            <label for="correo-consulta">Correo electrónico *</label>
+            <input type="email" id="correo-consulta" name="correo-consulta" required
+                   placeholder="tu@correo.com">
+
+            <label for="telefono-consulta">Teléfono (opcional)</label>
+            <input type="tel" id="telefono-consulta" name="telefono-consulta"
+                   placeholder="+504 9999-9999">
+
+            <label for="asunto">Asunto de la consulta *</label>
+            <select id="asunto" name="asunto" required>
+                <option value="">-- Seleccione un asunto --</option>
+                <option value="informacion">Solicitud de información turística</option>
+                <option value="asistencia">Asistencia durante el viaje</option>
+                <option value="comentario">Comentario o sugerencia</option>
+                <option value="queja">Queja o reclamo</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="mensaje">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required
+                      placeholder="Escribe aquí tu consulta, comentario o solicitud de asistencia..."
+                      minlength="10" maxlength="1000"></textarea>
+
+            <input type="submit" value="Enviar consulta">
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Portal Oficial de Turismo y Ecoturismo de Honduras. Todos los derechos reservados.</p>
+        <p>En conmemoración del Feriado Morazánico – Patrimonio histórico, natural y cultural de la nación.</p>
+        <p>Jeser Aziel Amaya Ortiz - 20211030684. UNAH.</p>
+    </footer>
+
+</body>
+</html>
